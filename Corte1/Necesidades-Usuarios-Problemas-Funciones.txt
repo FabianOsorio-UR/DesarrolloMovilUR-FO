@@ -1,0 +1,43 @@
+Necesidades de Greenbite
+- No se gestionan las ordenes dentro de un mismo entorno
+- No se sigue un orden para las entregas
+- Hay pérdidas de pedidos
+- Los repartidores son notificados en conjunto
+- Los pedidos se mezclan
+
+Usuarios (problema y aporte)
+- Propietario
+  - Tener un espacio unificado para gestion de pedidos
+  - Mejor tiempo de atencion al cliente
+
+- Repartidor
+  - Ser notificado solo cuando se le requiere
+  - Evitar perdidas de tiempo
+
+- Consumidor
+  - Pedir su comida en cualquier momento
+  - Mayor conveniencia al pedir
+
+El problema
+Greenbite es un restaurante de comida saludable ubicado en castilla. En este restaurante los pedidos son tomados a distancia haciendo uso del telefono,
+debido a esto el encargado de tomar los pedidos anota cada orden en un papel y los entrega a la cocina lo que provoca que a veces se pierdan pedidos o se
+mezclen las ubicaciones de entrega, esto tambien provoca que los consumidores deban esperar a que llegue su turno en la llamada para hacer su pedido, todos
+los repartidores son contactados a traves de un grupo de whatsapp y quien se encarga de entregar el pedido es el primero en llegar al local lo cual hace que
+los repartidores pierdan tiempo. Greenbite necesita una herramienta que le permita organizar y manejar de mejor manera sus pedidos y sus repartidores.
+
+Funciones
+- Hacer pedido de comida (cliente)
+- Asignar repartidor
+- Ver pedidos pendientes
+- Carrito de compras
+- Estado de la entrega
+
+
+
+
+
+
+
+
+
+
