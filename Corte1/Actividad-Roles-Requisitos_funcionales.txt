@@ -1,0 +1,49 @@
+app de manejo de tareas para los estudiantes
+  al menos 2 usuarios diferentes (nombre, edad, caracteristicas principales, por qué lo motivaría a usar la app)
+  identificar los roles de cada uno de esos usuarios
+  por cada rol identificar que problema particular enfrentaría cada usuario
+  para cada perfil definir que necesita hacer la app
+  defina minimo 5 requisitos funcionales identificando la prioridad de cada uno de ellos
+
+
+usuarios:
+
+administrador
+  tiene acceso a todos los modulos de la aplicación y puede revisar, modificar, bases de datos
+  motivación: mantener un control sobre la aplicación y hacer testeo
+  rol: admin
+  problema a enfrentar: funcionamiento de la app
+  la app debe:
+    acceder a todas las consultas de base de datos
+    añadir, modificar, "eliminar" informacion en la(s) base(s) de datos
+    manejar parametros y similares
+
+estudiante
+  tiene acceso a las tareas pendientes (y todo lo relacionado a estas) y su perfil
+  motivación: mantener control/conocimiento sobre las tareas que tiene
+  rol: estudiante (ver tareas, añadir tareas)
+  problema a enfrentar: conocer sus pendientes
+  la app debe:
+    acceder a las tareas que tiene (filtrando solo por el estudiante)
+    marcar como terminadas/pendientes las tareas que tiene
+    mostrar/recibir comunicados de sus profesores (filtrando a profes del estudiante)
+    mostrar notificaciones de comunicados/recordatorios
+    crear/iniciar sesion de usuario
+
+profesor
+  tiene la opcion de asignar/eliminar tareas para sus estudiantes, programar recordatorios o comunicados
+  motivación: optimizar el flujo de asignación de tareas a sus estudiantes, facilitar la comunicación puntual
+  rol: profesor (asignar tareas, hacer comunicados)
+  problema a enfrentar: dar a conocer nuevos pendientes
+  la app debe:
+    generar/eliminar comunicados/recordatorios (filtrando por estudiantes asignados)
+    generar/eliminar tareas
+    ver el estado de entrega de tareas de sus estudiantes
+    crear/iniciar sesion de usuario
+
+requisitos funcionales:             prioridad
+  generar usuario                   1
+  mostrar tareas pendientes         3
+  marcar tarea como terminada       4
+  mostrar tareas terminadas         5
+  añadir tarea pendiente            2
