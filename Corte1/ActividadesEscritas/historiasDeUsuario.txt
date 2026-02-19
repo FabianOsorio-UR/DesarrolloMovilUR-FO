@@ -1,0 +1,63 @@
+generar usuario              tsk-001
+añadir tarea pendiente       tsk-002
+mostrar tareas pendientes    tsk-003
+marcar tarea como terminada  tsk-004
+mostrar tareas terminadas    tsk-005
+
+de los 5 requisitos hechos en la tarea de hoy crear las historias de usuario
+(nombre, código, historia yo quiero y como, escenarios, criterios de aceptacion, estimación, responsable)
+  
+Historias de usuario
+tsk-001
+  yo como (Admin-Estudiante-Profesor)
+  quiero registrarme en la app
+  para poder ver/añadir/recordar/desmarcar mis tareas pendientes
+
+  escenario: el usuario ingresa usuario, contraseña, nombre, foto de perfil y rol
+  y el sistema guarda la información en la base de datos y permite el ingreso
+
+tsk-002
+  yo como (Admin-Profesor)
+  quiero añadir tareas pendientes a mis estudiantes para que ellos puedan
+  ver su nueva tarea
+
+  escenario: el usuario ingresa titulo, descripcion, material adicional (referencias bibliograficas, archivos y demás)
+  y el sistema guarda en la base de datos la nueva tarea, marca la tarea como pendiente y notifica a los estudiantes
+  sobre la nueva tarea
+
+tsk-003
+  yo como (Admin-Profesor-Estudiante)
+  quiero ver las tareas pendientes
+  para asegurarme de conocer todos los pendientes faltantes
+
+  escenario 1: el usuario no tiene tareas pendientes, el sistema muestra un espacio vacio con el mensaje
+  "no hay tareas pendientes"
+
+  escenario 2: el usuario tiene tareas pendientes, el sistema muestra una lista de tareas pendientes,
+  puede dar clic a la tarea para expandir la información sobre esta y ver titulo, descripción y material adicional
+
+tsk-004
+  yo como (Admin-Estudiante)
+  quiero marcar como terminada una tarea pendiente
+  para que al ver mis tareas pendientes no aparezcan mis tareas terminadas
+
+  escenario 1: el usuario no tiene tareas pendientes entonces no puede marcar tareas termiandas, el sistema muestra un
+  espacio vacio con el mensaje "no hay tareas pendientes"
+
+  escenario 2: el usuario tiene tareas pendientes, el sistema muestra una lista de tareas pendientes y al dar clic sobre la tarea
+  se despliega un pop-up que pregunta "¿Ya terminaste esta tarea?" y dos botones "si" y "no"
+  
+    escenario si: el pop-up se guarda, la tarea se inhabilita en la base de datos haciendola no visible en la lista de
+    tareas pendientes, la lista de tareas terminadas se actualiza añadiendo la nueva tarea terminada
+
+    escenario no: el pop-up se guarda, la tarea se mantiene disponible
+
+tsk-005
+  yo como (Admin-Estudiante)
+  quiero ver mis tareas terminadas
+  para mantener control/conocimiento sobre las tareas ya termiandas
+
+  escenario 1: el usuario no tiene tareas terminadas, el sistema muestra un espacio vacío con el mensaje "no tienes tareas termiandas"
+
+  escenario 2: el usuario si tiene tareas terminadas, el sistema muestra una lista de tareas terminadas, al dar clic sobre la tarea
+  se muestra la informacion de la tarea (titulo, descripcion, material adicional, fecha de culminación)
