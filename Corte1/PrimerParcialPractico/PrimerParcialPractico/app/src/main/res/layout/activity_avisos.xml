@@ -11,9 +11,10 @@
         android:text="¿Que pasa en el barrio?"
         android:textSize="24dp"
         android:textAlignment="center"
-        android:textAppearance="Bold"
+        android:textStyle="bold"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="15dp"/>
+        android:layout_marginBottom="15dp"
+        />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,8 +23,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            />
+            android:orientation="vertical" />
     </ScrollView>
 
     <Button
@@ -33,7 +33,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Crear"
         android:textSize="20dp"
-        android:textAppearance="SemiBold"
+        android:textStyle="bold"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"/>
 
@@ -44,7 +44,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Borrar"
         android:textSize="20dp"
-        android:textAppearance="SemiBold"
+        android:textStyle="bold"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="30dp"/>
 
