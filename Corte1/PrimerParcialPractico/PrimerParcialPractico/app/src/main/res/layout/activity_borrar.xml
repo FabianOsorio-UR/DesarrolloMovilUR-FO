@@ -16,13 +16,14 @@
         android:layout_marginBottom="15dp"/>
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvAnuncio"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="TextView"
         android:textAppearance="SemiBold"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textAlignment="center"/>
 
     <Button
         android:id="@+id/btBorrar"
