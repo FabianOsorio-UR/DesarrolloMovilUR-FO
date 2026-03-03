@@ -11,7 +11,7 @@
         android:text="Borrar anuncio"
         android:textSize="24dp"
         android:textAlignment="center"
-        android:textAppearance="Bold"
+        android:textStyle="bold"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"/>
 
@@ -20,8 +20,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="TextView"
-        android:textAppearance="SemiBold"
+        android:text="Anuncio"
         android:textSize="20dp"
         android:textAlignment="center"/>
 
@@ -32,7 +31,6 @@
         android:layout_gravity="center_horizontal"
         android:text="Borrar"
         android:textSize="20dp"
-        android:textAppearance="SemiBold"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="30dp"/>
 </LinearLayout>
